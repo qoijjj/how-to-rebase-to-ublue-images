@@ -16,7 +16,7 @@ Choose the ISO that corresponds to the environment you'd like to use.
 
 ## Step 2: Rebase to the unsigned variant of the image you chose
 
-For example, if you chose kinoite-nvidia in step 0, run the following commands:
+For example, if you chose `kinoite-nvidia` in step 0, run the following commands:
 
 ```
 rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/kinoite-nvidia:latest
@@ -28,7 +28,7 @@ systemctl reboot
 
 ## Step 3: Rebase to the signed variant of the image you chose
 
-For example, if you chose kinoite-nvidia in step 0, run the following commands:
+For example, if you chose `kinoite-nvidia` in step 0, run the following commands:
 
 ```
 rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/kinoite-nvidia:latest
