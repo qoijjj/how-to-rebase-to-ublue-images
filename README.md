@@ -37,3 +37,11 @@ rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/kinoite-nvidia:l
 ```
 systemctl reboot
 ```
+
+## Step 4: Nvidia-only
+
+Run `ujust configure-nvidia` to setup the kargs, then `systemctl reboot`
+
+### Optimus laptops only
+
+For optimus laptops, run `ujust configure-nvidia-optimus` to configure optimus laptops.
